@@ -36,15 +36,15 @@ Surface plane
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-https://en.thug-club.com/#anchor1 
+  https://en.thug-club.com/#anchor1 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  homepagina 
+  <img src="readme-images/screenshot1.jpg" width="375px" alt="homepagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  shopping pagina
+  <img src="readme-images/screenshot2.jpg" width="375px" alt="shopping pagina">
  
 </details>
 
@@ -57,6 +57,10 @@ https://en.thug-club.com/#anchor1
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  
+  screenreader was prima maar nogwel visueel vaag. 
+
+  <img src="readme-images/screenshot1.jpg" width="375px" alt="homepagina">
 
 </details>
 
@@ -68,13 +72,13 @@ https://en.thug-club.com/#anchor1
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschets1.jpg" width="375px" alt="breakdown van de hele pagina">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  ### section main: 
+  <img src="readme-images/breakdownschets2.jpg" width="375px" alt="breakdown van een main section">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  ### footer: 
+  <img src="readme-images/breakdownschets3.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
