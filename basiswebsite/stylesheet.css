@@ -1,0 +1,46 @@
+body {
+    margin:0;
+    color:rgb(255, 204, 63);
+    text-transform: uppercase;
+}
+
+body > img {
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    z-index: -1;
+}
+
+header {
+    display: flex;
+    position: fixed;
+}
+
+header nav {
+    display: none;
+}
+
+ul {
+    list-style: none;
+}
+
+ul a {
+    color:black;
+}
+
+main {
+    padding-top: 2.5em;
+    width: 10em;
+}
+
+main ul {
+    display: flex;
+}
+
+main ul a {
+    color:rgb(255, 204, 63);
+}
+
+button > img {
+    width: 2em;
+}
