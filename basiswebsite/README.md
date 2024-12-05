@@ -145,10 +145,9 @@ Responsive
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - de header in de juiste display zetten
+  - button css verbeteren
+  - css toevoegen / verbeteren
 
 </details>
 
@@ -237,8 +236,10 @@ Responsive
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. MDN input + select
+  2. SVGrepo
+  3. Codepen
+  4. Thug Club
+  5. OpenAI ChatGPT
 
 </details>
