@@ -6,7 +6,7 @@ body {
     margin:0;
     color:rgb(255, 204, 63);
     text-transform: uppercase;
-    /* background-image: url("images/backgroundTC.jpg");  */
+    background-image: url("images/backgroundTC.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -34,10 +34,6 @@ header button {
     border: none;
 }
 
-header nav {
-    display: none;
-}
-
 ul {
     list-style: none;
 }
@@ -62,6 +58,26 @@ button > img {
     width: 2em;
 }
 
+header nav:nth-of-type(2) {
+    position: fixed; 
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 13em;
+    background-color: pink;
+}
+
+nav:nth-of-type(2) ul {
+    padding-left: 1em;
+    padding-top: 2em;
+    list-style: none;
+}
+
+nav:nth-of-type(2) ul a {
+    text-decoration: none;
+    padding: .5em;
+}
+
 section:nth-of-type(1) {
     display: flex;
     justify-content: space-between;
@@ -72,14 +88,31 @@ section:nth-of-type(2) {
     font-size: .75em;
 }
 
-/* source: OpenAI, ChatGPT */
 section:nth-of-type(2) ul {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
-    grid-template-rows: auto;
+    grid-template-columns: 1fr; 
+    /* grid-template-rows: auto; */
     list-style: none;
     padding: 0; 
     margin: 0;
+}
+
+@media (min-width:480px) {
+    section:nth-of-type(2) ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width:600px) {
+    section:nth-of-type(2) ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width:768px) {
+    section:nth-of-type(2) ul {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 section:nth-of-type(2) ul li {
@@ -109,6 +142,7 @@ footer {
     /* grid-column-gap: 1em; */
 }
 
+/* source: CSS-tricks, Thomas Plas*/
 footer input {
     grid-column-start: 2;
     grid-column-end: 4;

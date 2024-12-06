@@ -130,7 +130,10 @@ Responsive
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Het meenemen van de opdrachten in de les en de feedback van de studentassistenten heb ik proberen toe te voegen aan mijn eigen code. Tot nu toe heel erg de originele site zo precies mogelijk na te maken.
+<img src="readme-images/week3.jpg">
+<img src="readme-images/week3-1.jpg">
+<img src="readme-images/week3-2.jpg">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -148,6 +151,7 @@ Responsive
   - de header in de juiste display zetten
   - button css verbeteren
   - css toevoegen / verbeteren
+  - javascript hamburger menu
 
 </details>
 
