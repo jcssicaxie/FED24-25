@@ -56,9 +56,13 @@ Responsive
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
-  
-  screenreader was prima maar nogwel visueel vaag. 
+  - screenreader was prima maar nogwel visueel vaag. 
+  - amper alt attributen bij afbeeldingen
+  - amper titels op pagina
+  - tabknop op sommige pagina's niet bruikbaar
+  - simplistic html/css
+  - gebruikt verschillende headings (h1)
+  - geen skip link
 
   <img src="readme-images/screenshot1.jpg" width="375px" alt="homepagina">
 
@@ -106,8 +110,6 @@ Responsive
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
   - language in de head van nl naar en (engelse site)
   - SVG gebruiken
   - let op indenting
@@ -129,7 +131,6 @@ Responsive
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
   Het meenemen van de opdrachten in de les en de feedback van de studentassistenten heb ik proberen toe te voegen aan mijn eigen code. Tot nu toe heel erg de originele site zo precies mogelijk na te maken.
 <img src="readme-images/week3.jpg">
 <img src="readme-images/week3-1.jpg">
@@ -146,8 +147,6 @@ Responsive
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
   - de header in de juiste display zetten
   - button css verbeteren
   - css toevoegen / verbeteren

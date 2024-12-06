@@ -1,5 +1,7 @@
 /* @font-face {
-
+    font-family: 'New Times Roman, sans-serif';
+    src: url();
+    font-weight: 700;
 } */
 
 body {
@@ -13,10 +15,13 @@ body {
     background-position: center; 
 }
 
+/*************/
+/* DE HEADER */
+/*************/
+/* source: Sanne 't Hooft */
 header {
     display: flex;
     position: fixed;
-    /* background-color: aqua; */
     left: 0;
     right: 0;
     top: 0;
@@ -32,6 +37,87 @@ header button {
     appearance: none;
     background: none;
     border: none;
+}
+
+button > img {
+    width: 2em;
+}
+
+header nav:nth-of-type(1) {
+    position: relative;
+}
+
+header nav:nth-of-type(2) ul:nth-of-type(2) {
+    display: flex; 
+    gap: 1em;
+    padding-left: 1em;
+    padding-top: 4em;
+}
+
+header nav:nth-of-type(1) img {
+    width: 1.5em;
+}
+
+header nav:nth-of-type(2) img {
+    width: 1em;
+}
+
+/************/
+/* HET MENU */
+/************/
+header nav:nth-of-type(1) {
+    position: fixed;
+    background-color: pink;
+    right: 0;
+
+    translate: 99%;
+}
+
+header nav:nth-of-type(1) ul {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin: 0;
+}
+
+header nav:nth-of-type(2) {
+    position: fixed; 
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 13em;
+    background-color: pink;
+
+    translate: 99%;
+    transition:translate .3s;
+}
+
+header nav:nth-of-type(2).toonMenu {
+    translate: 0%; 
+}
+
+/*****************/
+/* MENU BUTTON 1 */
+/*****************/
+header button:nth-of-type(1) {
+    background-color: hotpink;
+}
+
+/*****************/
+/* MENU BUTTON 2 */
+/*****************/
+header button:nth-of-type(2) {
+    background-color: aqua;
+}
+
+nav:nth-of-type(2) ul:nth-of-type(1) {
+    padding-left: 1em;
+    padding-top: 2em;
+    list-style: none;
+}
+
+nav:nth-of-type(2) ul a {
+    text-decoration: none;
 }
 
 ul {
@@ -54,28 +140,13 @@ main ul a {
     color:rgb(255, 204, 63);
 }
 
-button > img {
-    width: 2em;
-}
-
-header nav:nth-of-type(2) {
-    position: fixed; 
-    top: 0;
-    bottom: 0;
-    right: 0;
-    width: 13em;
-    background-color: pink;
-}
-
-nav:nth-of-type(2) ul {
-    padding-left: 1em;
-    padding-top: 2em;
-    list-style: none;
-}
-
-nav:nth-of-type(2) ul a {
-    text-decoration: none;
+/**************/
+/* 1E SECTION */
+/**************/
+select {
+    font: inherit;
     padding: .5em;
+    color: rgb(255, 204, 63);
 }
 
 section:nth-of-type(1) {
@@ -84,6 +155,9 @@ section:nth-of-type(1) {
     padding: 1em;
 }
 
+/**************/
+/* 2E SECTION */
+/**************/
 section:nth-of-type(2) {
     font-size: .75em;
 }
@@ -91,12 +165,15 @@ section:nth-of-type(2) {
 section:nth-of-type(2) ul {
     display: grid;
     grid-template-columns: 1fr; 
-    /* grid-template-rows: auto; */
     list-style: none;
     padding: 0; 
     margin: 0;
 }
 
+/**************/
+/* RESPONSIVE */
+/**************/
+/* source: Ryan Yeung, OpenAi ChatGPT */
 @media (min-width:480px) {
     section:nth-of-type(2) ul {
         grid-template-columns: repeat(2, 1fr);
@@ -129,17 +206,13 @@ section:nth-of-type(2) a {
     text-decoration: none;
 }
 
-select {
-    font: inherit;
-    padding: .5em;
-    color: rgb(255, 204, 63);
-}
-
+/**********/
+/* FOOTER */
+/**********/
 footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
-    /* grid-column-gap: 1em; */
 }
 
 /* source: CSS-tricks, Thomas Plas*/
@@ -151,19 +224,17 @@ footer input {
 }
 
 footer ul:nth-of-type(1) {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-
-footer ul:nth-of-type(1) {
     display: flex;
     justify-content: center;
     gap: 2em;
     padding-left: 0;
     text-transform: none;
     font-size: .75em;
+
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
 footer ul:nth-of-type(2) {
@@ -171,6 +242,7 @@ footer ul:nth-of-type(2) {
     text-align: center;
     font-size: .75em;
     padding-left: 0;
+
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 3;

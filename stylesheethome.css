@@ -1,0 +1,16 @@
+/* @font-face {
+    font-family: 'New Times Roman, sans-serif';
+    src: url();
+    font-weight: 700;
+} */
+ 
+body {
+    margin:0;
+    color:rgb(255, 204, 63);
+    text-transform: uppercase;
+    background-image: url("images/backgroundTC.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+}
