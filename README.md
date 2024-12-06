@@ -22,7 +22,7 @@ Jessica Xie
 Blauw
 
   #### Je focus:
-Surface plane
+Responsive
  
 </details>
 
@@ -92,8 +92,8 @@ Surface plane
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  <img src="readme-images/week2.jpg">
+  <img src="readme-images/week2-1.jpg">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -108,10 +108,14 @@ Surface plane
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - language in de head van nl naar en (engelse site)
+  - SVG gebruiken
+  - let op indenting
+  - alt "item 1" etc heb je niks aan, screenreader leest de titel toch al op
+  - voor de footer kijken naar input field
+  - adres in de footer in een list zetten ipv paragraaf
+  - voor drop-down menu een select element gebruiken
+  - homepagina scroll indicator bekijken op internet
 
 </details>
 
@@ -126,7 +130,10 @@ Surface plane
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Het meenemen van de opdrachten in de les en de feedback van de studentassistenten heb ik proberen toe te voegen aan mijn eigen code. Tot nu toe heel erg de originele site zo precies mogelijk na te maken.
+<img src="readme-images/week3.jpg">
+<img src="readme-images/week3-1.jpg">
+<img src="readme-images/week3-2.jpg">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -141,10 +148,10 @@ Surface plane
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - de header in de juiste display zetten
+  - button css verbeteren
+  - css toevoegen / verbeteren
+  - javascript hamburger menu
 
 </details>
 
@@ -233,8 +240,10 @@ Surface plane
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. MDN input + select
+  2. SVGrepo
+  3. Codepen
+  4. Thug Club
+  5. OpenAI ChatGPT
 
 </details>
