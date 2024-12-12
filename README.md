@@ -60,7 +60,6 @@ Responsive
   - amper alt attributen bij afbeeldingen
   - amper titels op pagina
   - tabknop op sommige pagina's niet bruikbaar
-  - simplistic html/css
   - gebruikt verschillende headings (h1)
   - geen skip link
 
@@ -102,7 +101,7 @@ Responsive
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Jessica        | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
@@ -164,7 +163,15 @@ Responsive
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+Via A11Y had ik gecheckt of de kleurencontrast goed was of niet.
+<img src="readme-images/goodcontrast.jpg">
+
+en langzamerhand een light-mode toegevoegd. Mijn site was vanaf het begin al op darkmode gebaseerd.
+<img src="readme-images/lightmode.jpg">
+
+Vervolgens mijn :focus states verbeterd en controls verbeterd. Mijn tabs doen wel raar. Hier moet ik nog achterna. Mijn headings. li elementen en links kloppen. 
+
+<img src="readme-images/eind10.jpg">
 
 </details>
 
@@ -178,8 +185,14 @@ Responsive
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+hier heb ik vooral moeite met javascript en de select = input forms. 
+<img src="readme-images/week4.jpg">
+<img src="readme-images/week4-1.jpg">
+<img src="readme-images/week4-2.jpg">
+<img src="readme-images/week4-3.jpg">
+<img src="readme-images/week4-4.jpg">
+<img src="readme-images/week4-5.jpg">
+<img src="readme-images/week4-6.jpg">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -192,12 +205,10 @@ Responsive
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - javascript verbeteren, je moet een micro-interactie hebben
+  - sluit button maken, maak het makkelijker voor jezelf
+  - form element in je input element toevoegen
+  - svg link in je form toevoegen
 
 </details>
 
@@ -211,19 +222,31 @@ Responsive
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/eind1.jpg" alt="uitkomst opdracht">
+  <img src="readme-images/eind2.jpg" alt="uitkomst opdracht">
+  <img src="readme-images/eind3.jpg" alt="uitkomst opdracht">
+
+  De site is volledig responsive
+  <img src="readme-images/eind4.jpg" alt="uitkomst opdracht">
+  <img src="readme-images/eind5.jpg" alt="uitkomst opdracht">
+  <img src="readme-images/eind6.jpg" alt="uitkomst opdracht">
+  <img src="readme-images/eind7.jpg" alt="uitkomst opdracht">
+
+  Met een light-mode
+  <img src="readme-images/eind8.jpg" alt="uitkomst opdracht">
+  <img src="readme-images/eind9.jpg" alt="uitkomst opdracht">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
+Ik heb zonder dat het echt hoefde de font-family op de manier fan @font-face in CSS gezet, met :root custom properties gemaakt. Ik heb met javascript kleine animaties (hamburger menu's gecodeerd) en kleine trucjes van javascript weer opgepikt. Ik heb de logica van display grid goed vernomen en begrepen, hoe kolommen en rijen werken in zo'n display grid. Ik heb verder mijn kennis ontwikkeld met display flex. Ik heb voor het eerst een dark-mode light-mode en :focus pseudo-classes gebruikt voor betere accessibility op een site en vooral zitten spelen met parent-child elementen, omdat we niet met < div's> en classes/id's mochten coderen. Om bepaalde codes aan te spreken in CSS en/of javascript was dit wel makkelijker te begrijpen. 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+Voor op de homepage moest ik een animerende scrollpagina maken met als gedachtegang dat ik met @keyframes de scroll indicator kon coderen. Dit was mij uiteindelijk niet gelukt.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/eind6.jpg" alt="uitkomst opdracht">
+
+hier zie je aan de rechterkant een kleine gele scroll-indicator die geen toegevoegde waarde geeft. Daarnaast scrollt de pagina niet transformerend naar de andere foto naar mijn wens :c
+
 </details>
 
 
@@ -235,14 +258,10 @@ Responsive
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
-
   1. MDN input + select
-  2. SVGrepo
-  3. Codepen
+  2. SVGrepo (menu icon)
+  3. Codepen (hamburger menu)
   4. Thug Club
-  5. OpenAI ChatGPT
+  5. OpenAI ChatGPT 
 
 </details>

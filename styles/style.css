@@ -1,31 +1,27 @@
-/**************/
-/* CSS REMEDY */
-/**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+
+@font-face {
+    font-family: 'Libre';
+    src: url(font/LibreCaslonText-Regular.ttf);
+    font-weight: 700;
 }
 
-
-
-
-
-
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+    --background-light: url("../images/backgroundTC-2.png");
+
+    --color-border: rgb(255, 204, 63);
+    --color-text-default: rgb(255, 204, 63);
+    --color-text-footer: grey;
+    --color-base: black;
+    --color-accent: white; 
 }
 
+@media (prefers-color-scheme: dark) {
+    :root {
+    --background-dark: url('../images/backgroundTC-1.jpg');
+    }
+}
 
-
-
-
-/****************/
-/* JOUW STYLING */
-/****************/
-
-/* jouw code */
-
+input:focus, select:focus, button:focus, a:focus {
+    outline: .2em solid var(--color-text-default);
+    border-radius: .5em;
+}

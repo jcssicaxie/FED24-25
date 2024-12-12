@@ -8,32 +8,36 @@
 	
 	<title>Thug Club</title>
 	
-	<link href="stylesheet.css" rel="stylesheet">
+	<link href="styles/style.css" rel="stylesheet">
+	<link href="styles/stylesheet.css" rel="stylesheet">
 
 </head>
 
 <body>
 	<header>
-		<h1>Thug Club</h1>
+		<h1><a href="home.html">Thug Club</a></h1>
 
 	<button>
-		<img src="images/togglebuttonimg.png">
+		<img src="images/togglebuttonimg.png" alt="Toggle language options button">
 	</button>
 		<nav>
 			<ul>
 				<li>
-					<a href="#"><img src="images/togglebuttonimg.png">International</a>
+					<a href="#"><img src="images/togglebuttonimg.png" alt="International icon">International</a>
 				</li>
 				<li>
-					<a href="#"><img src="images/kr.png">South Korea</a>
+					<a href="#"><img src="images/kr.png" alt="South Korea icon">South Korea</a>
 				</li>
 			</ul>
 		</nav>
 
 	<button>
-		<img src="images/menuicon.svg">
+		<img src="images/menuicon.svg" alt="Menu icon">
 	</button>
 		<nav>
+			<button>
+				<img src="images/closeicon.svg" alt="Close menu icon">
+			</button>
 			<ul>
 				<li>
 					<a href="#">Product</a>
@@ -54,16 +58,16 @@
 			
 			<ul>
 				<li>
-					<a href="#"><img src="images/instagram-svgrepo-com.svg"></a>
+					<a href="#"><img src="images/instagram-svgrepo-com.svg" alt="Instagram logo"></a>
 				</li>
 				<li>
-					<a href="#"><img src="images/pinterest-svgrepo-com.svg"></a>
+					<a href="#"><img src="images/pinterest-svgrepo-com.svg" alt="Pinterest logo"></a>
 				</li>
 				<li>
-					<a href="#"><img src="images/facebook-176-svgrepo-com.svg"></a>
+					<a href="#"><img src="images/facebook-176-svgrepo-com.svg" alt="Facebook logo"></a>
 				</li>
 				<li>
-					<a href="#"><img src="images/naver-svgrepo-com.svg"></a>
+					<a href="#"><img src="images/naver-svgrepo-com.svg" alt="Naver logo"></a>
 				</li>
 			</ul>
 		</nav>
@@ -155,9 +159,13 @@
 	
 
 	<footer>
+		<form>
 		<!-- source: MDN select  -->
-		<input type="search" id="site-search" name="q"/>
-		<!-- searchbar svg in de input bar? -->
+			<input type="search" id="site-search" name="q"/>
+				<svg width="15px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M14.9536 14.9458L21 21M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+		  </form>
 
 		<ul>
 			<li>
@@ -190,7 +198,7 @@
 		</ul>
 	</footer>
 
-	<script src="script.js"></script>
+	<script src="scripts/script.js"></script>
 </body>
 	
 </html>

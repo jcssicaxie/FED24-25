@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thug Club Homepage</title>
 
-    <link href="stylesheethome.css" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/stylesheethome.css" rel="stylesheet">
 </head>
 <body>
-    <header></header>
+    <header>
 		<h1>Thug Club</h1>
 
 	<button>
@@ -29,9 +30,13 @@
 		<img src="images/menuicon.svg">
 	</button>
 		<nav>
+            <button>
+				<img src="images/closeicon.svg">
+			</button>
+
 			<ul>
 				<li>
-					<a href="#">Product</a>
+					<a href="index.html">Product</a>
 				</li>
 				<li> 
 					<a href="#">Lookbook</a>
@@ -64,12 +69,23 @@
 		</nav>
 	</header>
 
-    <!-- scroll indicator -->
-
+    <main>
+ <!-- source MDN scroll indicator -->
+        <section>
+            <a href="#"><img src="images/backgroundTC.jpg"></a>
+            <span id="scroll-indicator"></span>
+            <a href="#"><img src="images/backgroundTC2.jpg"></a>
+        </section>
+    </main>
+   
     <footer>
-		<!-- source: MDN select  -->
-		<input type="search" id="site-search" name="q"/>
-		<!-- searchbar svg in de input bar? -->
+        <form>
+            <!-- source: MDN select, Jason Wong  -->
+                <input type="search" id="site-search" name="q"/>
+                    <svg width="15px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.9536 14.9458L21 21M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+              </form>
 
 		<ul>
 			<li>
@@ -102,7 +118,7 @@
 		</ul>
 	</footer>
 
-	<script src="script.js"></script>
+	<script src="scripts/script.js"></script>
 
 </body>
 </html>
