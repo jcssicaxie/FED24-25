@@ -6,7 +6,7 @@
 }
 
 :root {
-    --background-light: url("../images/backgroundTC-2.png");
+    --background-main: url("../images/backgroundTC-2.png");
 
     --color-border: rgb(255, 204, 63);
     --color-text-default: rgb(255, 204, 63);
@@ -17,11 +17,11 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-    --background-dark: url('../images/backgroundTC-1.jpg');
+    --background-main: url('../images/backgroundTC-1.jpg');
     }
 }
 
-input:focus, select:focus, button:focus, a:focus {
-    outline: .2em solid var(--color-text-default);
+:focus {
+    outline: solid .2em var(--color-text-default);
     border-radius: .5em;
 }

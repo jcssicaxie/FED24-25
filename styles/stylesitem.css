@@ -10,8 +10,6 @@ body {
     background-position: center; 
 }
 
-
-
 /*************/
 /* DE HEADER */
 /*************/
@@ -123,18 +121,18 @@ header button:nth-of-type(1) img {
     width: 1.5em;
 }
 
-/*****************/
-/* MENU BUTTON 2 */
-/*****************/
-
 header nav:nth-of-type(2) button {
     padding: 1em;
+    padding-top: 2em;
 }
 
 header nav:nth-of-type(2) button img {
     width: 2em;
 }
 
+/*****************/
+/* MENU BUTTON 2 */
+/*****************/
 nav:nth-of-type(2) ul:nth-of-type(1) {
     padding-left: 1em;
     list-style: none;
@@ -153,85 +151,98 @@ ul a {
     color: var(--color-base);
 }
 
+/********/
+/* MAIN */
+/********/
 main {
-    padding-top: 3.5em;
-    padding-bottom: 1.5em;
+    padding: 5em 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-main h2 {
-    font-size: .75em;
+main img {
+    width: 25em;
 }
 
-main ul a {
-    color: var(--color-text-default);
+main h2, main p {
+    font-size: small;
 }
 
 /**************/
 /* 1E SECTION */
 /**************/
-select {
-    font: inherit;
-    padding-right: .5em;
-    color: var(--color-border);
-    width: 8em;
-    font-size: small;
+main section:nth-of-type(1) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-section:nth-of-type(1) {
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
+main section:nth-of-type(1) button {
+    background-color: transparent;
+    padding: .5em;
+}
+
+main section:nth-of-type(1) button img:nth-of-type(1) {
+    width: 2em;
 }
 
 /**************/
 /* 2E SECTION */
 /**************/
-section:nth-of-type(2) {
-    font-size: .75em;
+main select {
+    font-family: "Libre, sans-serif";
+    color: var(--color-border);
+    border-color: var(--color-border);
+    padding: .5em;
+    background-color: transparent;
 }
 
-section:nth-of-type(2) ul {
-    display: grid;
-    grid-template-columns: 1fr; 
-    list-style: none;
-    padding: 0; 
-    margin: 0;
+main button:nth-of-type(1) {
+    font-family: "Libre, sans-serif";
+    color: var(--color-accent);
+    border: none;
+    padding: .7em 7em;
+    background-color: var(--color-text-footer);
 }
 
-/******************/
-/* RESPONSIVENESS */
-/******************/
-/* source: Ryan Yeung, OpenAi ChatGPT prompt: why doesn't my code work? */
-@media (min-width:480px) {
-    section:nth-of-type(2) ul {
-        grid-template-columns: repeat(2, 1fr);
-    }
+main button:nth-of-type(2) {
+    color: var(--color-base);
+    padding: .5em 4em;
+    border: none;
+    border-radius: .5em;
+    background-color: var(--color-border);
+    display: flex;
 }
 
-@media (min-width:600px) {
-    section:nth-of-type(2) ul {
-        grid-template-columns: repeat(3, 1fr);
-    }
+main button:nth-of-type(2) img {
+    width:3em;
 }
 
-@media (min-width:768px) {
-    section:nth-of-type(2) ul {
-        grid-template-columns: repeat(4, 1fr);
-    }
+main section:nth-of-type(2) {
+    padding-left: 3em;
 }
 
-section:nth-of-type(2) ul li {
-    text-align: center; 
+/*********/
+/* TABLE */
+/*********/
+
+table {
+    display: none;
+    background-color: var(--color-text-footer);
+    font-size: .7em;
+    color: var(--color-accent);
+    text-transform: lowercase;
+    padding: .5em;
+    border: .1em solid var(--color-accent);
+    border-collapse: collapse;
+    margin-bottom: 3em;
 }
 
-section:nth-of-type(2) ul li img {
-    max-width: 100%; 
-    height: auto; 
-    display: block; 
-}
-
-section:nth-of-type(2) a {
-    text-decoration: none;
+th, td {
+    padding: .5em;
+    border: .1em solid var(--color-accent);
 }
 
 /**********/
@@ -241,12 +252,12 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
-    padding-bottom: 3em;
     padding-top: 1em;
+    padding-bottom: 3em;
     background-color: var(--color-accent);
 }
 
-/* source: CSS-tricks, Thomas Plas*/
+/* source: CSS-tricks, Thomas Plas, OpenAI ChatGPT */
 footer form {
     position: relative;
     display: flex; 
@@ -281,6 +292,7 @@ footer ul:nth-of-type(1) {
 
 footer ul:nth-of-type(2) {
     color: var(--color-text-footer);
+    text-align: center;
     font-size: .75em;
     padding-left: 0;
 
@@ -288,13 +300,4 @@ footer ul:nth-of-type(2) {
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
-}
-
-footer a {
-    color: var(--color-base);
-}
-
-footer li {
-    line-height: 1.5em;
-    text-align: center;
 }

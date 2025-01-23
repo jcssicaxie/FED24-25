@@ -36,3 +36,41 @@ function closeLang(event) {
 
 languageButton.onclick = addLang;
 
+// source: OpenAI ChatGPT, prompt: i want to code a carousel with two arrows that displays different images
+const images = [
+    "images/item1.png",
+    "images/item1brown.png",
+    "images/item1red.png",
+];
+
+let currentIndex = 0;
+
+const jacketImage = document.querySelector("section img[alt='Hell Cowboy Jacket']");
+const prevBtn = document.querySelector("section:nth-of-type(1) button:nth-of-type(1)")
+const nextBtn = document.querySelector("section:nth-of-type(1) button:nth-of-type(2)")
+
+function updateImage() {
+    jacketImage.src = images[currentIndex];
+}
+
+prevBtn.addEventListener("click", () => {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    updateImage();
+  });
+  
+  nextBtn.addEventListener("click", () => {
+    currentIndex = (currentIndex + 1) % images.length;
+    updateImage();
+  });
+
+// source: OpenAI ChatGPT, prompt: when i click on 'size guide' i want the table to appear
+const sizeGuideBtn = document.querySelector("section:nth-of-type(2) p:nth-of-type(3)");
+const sizeGuideTable = document.querySelector("table");
+
+sizeGuideBtn.addEventListener("click", () => {
+    if (sizeGuideTable.style.display === "none") {
+        sizeGuideTable.style.display = "table";
+    } else {
+        sizeGuideTable.style.display = "none";
+    }
+});
