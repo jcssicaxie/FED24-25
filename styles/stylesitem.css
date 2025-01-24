@@ -214,6 +214,8 @@ main button:nth-of-type(2) {
     border-radius: .5em;
     background-color: var(--color-border);
     display: flex;
+    align-items: center;
+    gap: .5em;
 }
 
 main button:nth-of-type(2) img {
@@ -243,6 +245,21 @@ table {
 th, td {
     padding: .5em;
     border: .1em solid var(--color-accent);
+}
+
+@media (max-width:768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main img {
+        width: 15em;
+    }
+
+    main section:nth-of-type(2) {
+        padding: 0;
+    }
 }
 
 /**********/
