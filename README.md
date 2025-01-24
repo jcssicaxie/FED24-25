@@ -173,6 +173,14 @@ Vervolgens mijn :focus states verbeterd en controls verbeterd. Mijn tabs doen we
 
 <img src="readme-images/eind10.jpg">
 
+De checklist:
+<img src="readme-images/checklist1.jpg">
+<img src="readme-images/checklist2.jpg">
+<img src="readme-images/checklist3.jpg">
+<img src="readme-images/checklist4.jpg">
+<img src="readme-images/checklist5.jpg">
+
+
 </details>
 
 
@@ -240,12 +248,22 @@ hier heb ik vooral moeite met javascript en de select = input forms.
   ### Dit ging goed/Heb ik geleerd: 
 Ik heb zonder dat het echt hoefde de font-family op de manier fan @font-face in CSS gezet, met :root custom properties gemaakt. Ik heb met javascript kleine animaties (hamburger menu's gecodeerd) en kleine trucjes van javascript weer opgepikt. Ik heb de logica van display grid goed vernomen en begrepen, hoe kolommen en rijen werken in zo'n display grid. Ik heb verder mijn kennis ontwikkeld met display flex. Ik heb voor het eerst een dark-mode light-mode en :focus pseudo-classes gebruikt voor betere accessibility op een site en vooral zitten spelen met parent-child elementen, omdat we niet met < div's> en classes/id's mochten coderen. Om bepaalde codes aan te spreken in CSS en/of javascript was dit wel makkelijker te begrijpen. 
 
+Vervolgens bij de herkansing heb ik beter de @media code kunnen begrijpen en sneller kunnen werken met html/css coderen. 
+
   ### Dit was lastig/Is niet gelukt:
 Voor op de homepage moest ik een animerende scrollpagina maken met als gedachtegang dat ik met @keyframes de scroll indicator kon coderen. Dit was mij uiteindelijk niet gelukt.
 
   <img src="readme-images/eind6.jpg" alt="uitkomst opdracht">
 
 hier zie je aan de rechterkant een kleine gele scroll-indicator die geen toegevoegde waarde geeft. Daarnaast scrollt de pagina niet transformerend naar de andere foto naar mijn wens :c
+
+Vervolgens voor de herkansing heb ik een andere pagina moeten coderen die meer content bevatte.
+
+  <img src="readme-images/her1.jpg" alt="uitkomst opdracht">
+
+  <img src="readme-images/her2.jpg" alt="uitkomst opdracht">
+
+Bij deze pagina had ik vooral moeite met kleine javascript onderdelen, zoals de carousel en de size guide uitklappen. Qua responsiveness heb ik het snel kunnen fixen met @media voor op iPhone formaat. 
 
 </details>
 
