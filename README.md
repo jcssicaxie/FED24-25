@@ -281,5 +281,6 @@ Bij deze pagina had ik vooral moeite met kleine javascript onderdelen, zoals de 
   3. Codepen (hamburger menu)
   4. Thug Club
   5. OpenAI ChatGPT 
+  6. https://stackoverflow.com/questions/17219688/href-tel-and-mobile-numbers 
 
 </details>

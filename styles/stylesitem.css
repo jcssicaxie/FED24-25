@@ -170,6 +170,16 @@ main h2, main p {
     font-size: small;
 }
 
+@media (prefers-color-scheme: light) {
+    header button:nth-of-type(1) img {
+        filter: brightness(0);
+    }
+
+    button > img {
+        filter: brightness(0);
+    }
+}
+
 /**************/
 /* 1E SECTION */
 /**************/
@@ -197,6 +207,18 @@ main select {
     border-color: var(--color-border);
     padding: .5em;
     background-color: transparent;
+}
+
+@media (prefers-color-scheme: light) {
+    main select {
+        color: var(--color-text-default);
+        border-color: var(--color-text-default);
+        background-color: var(--color-accent);
+    }
+
+    header nav:nth-of-type(1) li a {
+        color: var(--color-accent);
+    }
 }
 
 main button:nth-of-type(1) {

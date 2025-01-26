@@ -116,6 +116,16 @@ header h1 a {
     color: var(--color-text-default);
 }
 
+@media (prefers-color-scheme: light) {
+    header button:nth-of-type(1) img {
+        filter: brightness(0);
+    }
+
+    button > img {
+        filter: brightness(0);
+    }
+}
+
 /*****************/
 /* MENU BUTTON 1 */
 /*****************/
@@ -175,6 +185,12 @@ select {
     color: var(--color-border);
     width: 8em;
     font-size: small;
+}
+
+@media (prefers-color-scheme: light) {
+    select {
+        color: var(--color-text-default);
+    }
 }
 
 section:nth-of-type(1) {

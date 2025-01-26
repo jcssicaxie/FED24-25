@@ -21,6 +21,12 @@
     }
 }
 
+@media (prefers-color-scheme: light) {
+    :root {
+        --color-text-default: black;
+    }
+}
+
 :focus {
     outline: solid .2em var(--color-text-default);
     border-radius: .5em;
