@@ -21,6 +21,7 @@ header {
     right: 0;
     top: 0;
     padding: .3em;
+    z-index: 1;
 }
 
 header h1 {
@@ -238,6 +239,7 @@ main button:nth-of-type(2) {
     display: flex;
     align-items: center;
     gap: .5em;
+    z-index: 0;
 }
 
 main button:nth-of-type(2) img {
@@ -247,6 +249,10 @@ main button:nth-of-type(2) img {
 main section:nth-of-type(2) {
     padding-left: 3em;
 }
+
+/* main section:nth-of-type(2) :has( [value="Brown"]:checked ) img{
+	content:url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fdevotedstore.com%2Fproducts%2Farmstrong&psig=AOvVaw2OYMUb8XAY3tiqXcA5zRKu&ust=1738010908591000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCICXzKqhlIsDFQAAAAAdAAAAABAE");
+} */
 
 /*********/
 /* TABLE */
