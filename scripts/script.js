@@ -45,9 +45,9 @@ const images = [
 
 let currentIndex = 0;
 
-const jacketImage = document.querySelector("section img[alt='Hell Cowboy Jacket']");
-const prevBtn = document.querySelector("section:nth-of-type(1) button:nth-of-type(1)")
-const nextBtn = document.querySelector("section:nth-of-type(1) button:nth-of-type(2)")
+const jacketImage = document.querySelector("main img[alt='Hell Cowboy Jacket']");
+const prevBtn = document.querySelector("main button:nth-of-type(1)")
+const nextBtn = document.querySelector("main button:nth-of-type(2)")
 
 function updateImage() {
     jacketImage.src = images[currentIndex];
@@ -64,7 +64,7 @@ prevBtn.addEventListener("click", () => {
   });
 
 // source: OpenAI ChatGPT, prompt: when i click on 'size guide' i want the table to appear
-const sizeGuideBtn = document.querySelector("section:nth-of-type(2) p:nth-of-type(3)");
+const sizeGuideBtn = document.querySelector("section button:nth-of-type(2)");
 const sizeGuideTable = document.querySelector("table");
 
 sizeGuideBtn.addEventListener("click", () => {
