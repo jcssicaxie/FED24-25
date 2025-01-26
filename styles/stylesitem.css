@@ -164,7 +164,7 @@ main {
 }
 
 main img {
-    width: 25em;
+    width: 20em;
 }
 
 main h2, main p {
@@ -184,24 +184,46 @@ main h2, main p {
 /**************/
 /* 1E SECTION */
 /**************/
-main section:nth-of-type(1) {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+main {
+    display: grid;
+    grid-template-columns: 3em 12em 3em;
+    grid-template-rows: 20em 1fr;
+    justify-items: center;
 }
 
-main section:nth-of-type(1) button {
+section {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+main button {
     background-color: transparent;
-    padding: .5em;
+    border: 0;
 }
 
-main section:nth-of-type(1) button img:nth-of-type(1) {
+main button img {
     width: 2em;
+}
+
+main section button img {
+    width: 4em;
+}
+
+main > button:nth-of-type(1) {
+    grid-row: 1/2;
+    grid-column: 1/2;
 }
 
 /**************/
 /* 2E SECTION */
 /**************/
+section {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    width: 20em;
+}
+
 main select {
     font-family: "Libre, sans-serif";
     color: var(--color-border);
@@ -222,15 +244,24 @@ main select {
     }
 }
 
-main button:nth-of-type(1) {
+main section button:nth-of-type(1) {
     font-family: "Libre, sans-serif";
     color: var(--color-accent);
     border: none;
-    padding: .7em 7em;
+    padding: .7em;
+    width: 16em;
     background-color: var(--color-text-footer);
 }
 
-main button:nth-of-type(2) {
+section button:nth-of-type(2) {
+    font-family: 'Libre', serif;
+    color: var(--color-text-default);
+    text-transform: uppercase;
+    text-align: start;
+    padding: 1em 0;
+}
+
+section button:nth-of-type(3) {
     color: var(--color-base);
     padding: .5em 4em;
     border: none;
@@ -238,21 +269,15 @@ main button:nth-of-type(2) {
     background-color: var(--color-border);
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: .5em;
     z-index: 0;
-}
-
-main button:nth-of-type(2) img {
-    width:3em;
 }
 
 main section:nth-of-type(2) {
     padding-left: 3em;
 }
-
-/* main section:nth-of-type(2) :has( [value="Brown"]:checked ) img{
-	content:url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fdevotedstore.com%2Fproducts%2Farmstrong&psig=AOvVaw2OYMUb8XAY3tiqXcA5zRKu&ust=1738010908591000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCICXzKqhlIsDFQAAAAAdAAAAABAE");
-} */
+ 
 
 /*********/
 /* TABLE */
@@ -275,14 +300,20 @@ th, td {
     border: .1em solid var(--color-accent);
 }
 
-@media (max-width:768px) {
+@media (min-width:500px) {
     main {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 3em 20em 3em 26em;
+        grid-template-rows: 1fr;
+    }
+    
+    section {
+        grid-row: 1/2;
+        grid-column: 4/5;
     }
 
     main img {
-        width: 15em;
+        width: 25em;
     }
 
     main section:nth-of-type(2) {

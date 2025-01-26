@@ -185,11 +185,15 @@ select {
     color: var(--color-border);
     width: 8em;
     font-size: small;
+    background-color: var(--color-base);
+    border-color: var(--color-text-default);
 }
 
 @media (prefers-color-scheme: light) {
     select {
         color: var(--color-text-default);
+        background-color: var(--color-accent);
+        border-color: var(--color-text-default);
     }
 }
 
