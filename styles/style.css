@@ -29,5 +29,5 @@
 
 :focus {
     outline: solid .2em var(--color-text-default);
-    border-radius: .5em;
+    /* border-radius: .5em; */
 }

@@ -267,6 +267,7 @@ footer {
     padding-top: 1em;
     background-color: var(--color-accent);
     margin-top: 0;
+    text-transform: none;
 }
 
 /* source: CSS-tricks, Thomas Plas*/

@@ -180,6 +180,15 @@ De checklist:
 <img src="readme-images/checklist4.jpg">
 <img src="readme-images/checklist5.jpg">
 
+VERBETERINGEN ten opzichte van originele site:
+- voor img heb ik meerdere alt attributen aan toegevoegd, maar bij de meesten was dat niet nodig omdat de h3 de afbeelding al aanduidt. De alt heb ik daarbij dus leeggehouden. 
+- Titels op pagina heb ik aan toegevoegd voor duidelijkheid.
+- ik heb ook gebruik gemaakt van één H1. 
+- ik heb de kleurencontrast verbeterd
+- op de originele site gebruiken ze voor elke list item veel divs, ik heb attributen gekozen die de screenreader kan lezen. 
+- ik heb :focus states toegevoegd voor makkelijke navigatie met toetsenbord. 
+- Hetzelfde geldt voor een :hover state. Het was niet duidelijk dat de size guide klikbaar was. Ik heb er een underline voor gegeven en een :hover state dat hij italic wordt om te laten zien dat hij klikbaar is. 
+
 
 </details>
 
@@ -265,6 +274,18 @@ Vervolgens voor de herkansing heb ik een andere pagina moeten coderen die meer c
 
 Bij deze pagina had ik vooral moeite met kleine javascript onderdelen, zoals de carousel en de size guide uitklappen. Qua responsiveness heb ik het snel kunnen fixen met @media voor op iPhone formaat. 
 
+UPDATE:
+dit zijn allerlei dingen die ik heb moeten verbeteren volgens Thomas,
+
+- logo's kleur voor de lightversion, met filter brightness naar 0%, omdat dat een beter contrast is voor de lightmode. Het contrast is beter volgens A11Y zwart op wit, in plaats van geel op wit. Bij darkmode heb ik dit behouden. 
+- Ik heb op mijn itempagina display: flex veranderd naar display: grid, deze keuze heb ik gemaakt omdat ik anders een section in mijn html had zonder H2. Dat was niet semantisch. 
+- de soldout button is disabled="true". Dit maakt het ook semantisch.
+- Voor de size guide heb ik het veranderd van p naar button, dit was de bedoeling en de tabel die eruit klapt schuift niet de hele pagina omver. Dit is gefixt met display:grid en align-self: start;. Dat werkt nu zodra je iets toevoegt alle items aan de bovenkant aligned als je de tabel openklapt blijven de items bovenaan op dezelfde plek. 
+- in mijn footer heb ik ervoor gezorgd dat de telefoonnummer en locatie een juiste link hebben, hetzelfde geldt voor de app iconen in de menubalk die uitklapt. 
+- in mijn footer heb ik ook ervoor gezorgd dat de screenreader de koreaanse tekst in koreaanse VoiceOver opleest. 
+- Voor verschillende desktop schermen heb ik geprobeerd ervoor te zorgen dat de footer aan de onderkant blijft. 
+- ik had het idee om de select te laten werken met :has, maar dit is niet gelukt. Ik wou dat wanneer de option value brown bijvoorbeeld werd geselecteerd, de img ook veranderd naar de itembrown.png. Als ik meer tijd had gehad had ik dit beter kunnen oplossen. 
+
 </details>
 
 
@@ -282,5 +303,6 @@ Bij deze pagina had ik vooral moeite met kleine javascript onderdelen, zoals de 
   4. Thug Club
   5. OpenAI ChatGPT 
   6. https://stackoverflow.com/questions/17219688/href-tel-and-mobile-numbers 
+  7. Thomas Plas (html nagegeken + tips en feedback)
 
 </details>

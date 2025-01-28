@@ -46,7 +46,7 @@ const images = [
 let currentIndex = 0;
 
 const jacketImage = document.querySelector("main img[alt='Hell Cowboy Jacket']");
-const prevBtn = document.querySelector("main button:nth-of-type(1)")
+const prevBtn = document.querySelector("main > button:nth-of-type(1)")
 const nextBtn = document.querySelector("main button:nth-of-type(2)")
 
 function updateImage() {
