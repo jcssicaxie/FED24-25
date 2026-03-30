@@ -132,13 +132,6 @@ I then improved my :focus states and controls. My tabs are behaving strangely, s
 
 <img src="readme-images/eind10.jpg">
 
-The checklist:
-<img src="readme-images/checklist1.jpg">
-<img src="readme-images/checklist2.jpg">
-<img src="readme-images/checklist3.jpg">
-<img src="readme-images/checklist4.jpg">
-<img src="readme-images/checklist5.jpg">
-
   ### Improvements compared to the original website:
 - I added alt attributes to images where appropriate. In many cases, this was not necessary because the H3 already describes the image, so I left the alt attribute empty.
 - I added page titles to improve clarity.
