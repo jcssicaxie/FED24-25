@@ -213,8 +213,6 @@ After this, I worked on coding a different page that contained more content.
 
   <img src="readme-images/her1.jpg" alt="uitkomst opdracht">
 
-  <img src="readme-images/her2.jpg" alt="uitkomst opdracht">
-
 On this page, I mainly struggled with smaller JavaScript components, such as the carousel and expanding the size guide. In terms of responsiveness, I was able to fix it quickly using @media queries for iPhone screen sizes.
 
   ### Updated reflection
