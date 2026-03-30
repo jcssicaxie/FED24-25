@@ -1,17 +1,13 @@
-# Procesdoc
+# Processdocument
 ## Me
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
 
-  ### Auteur:
+  ### Author:
 Jessica Xie
 
-  #### Je startniveau:
-Blauw
-
-  #### Je focus:
-Responsive
+  #### Focus:
+Responsiveness
  
 </details>
 
@@ -22,9 +18,8 @@ Responsive
 ## The website
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
 
-  ### Je opdracht:
+  ### The assignment:
   https://en.thug-club.com/#anchor1 
 
   #### Screenshot(s) of the first page (small screen): 
@@ -42,7 +37,6 @@ Responsive
 ## Accessibility test 1/2 (week 1)
 
 <details>
-  <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Observations
 The screen reader experience was good, but visually still unclear.
@@ -61,7 +55,6 @@ The screen reader experience was good, but visually still unclear.
 ## Breakdownsketch (week 1)
 
 <details>
-  <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### The whole page: 
   <img src="readme-images/breakdownschets1.jpg" width="375px" alt="breakdown van de hele pagina">
@@ -81,7 +74,6 @@ The screen reader experience was good, but visually still unclear.
 ## Progress 1 (week 2)
 
 <details>
-  <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Current status
   <img src="readme-images/week2.jpg">
@@ -106,7 +98,6 @@ The screen reader experience was good, but visually still unclear.
 ## Progress 2 (week 3)
 
 <details>
-  <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Current status
   I tried to incorporate the assignments covered in class and the feedback from the student assistants into my own code. So far, I have mainly focused on recreating the original website as accurately as possible.
@@ -129,7 +120,6 @@ The screen reader experience was good, but visually still unclear.
 ## Accessibility test 2/2 (week 4)
 
 <details>
-  <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Observations
 I used A11Y to check whether the color contrast was adequate
@@ -168,7 +158,6 @@ The checklist:
 ## Progress 3 (week 4)
 
 <details>
-  <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Current status
 I mainly struggle with JavaScript and the select = input forms.
@@ -195,7 +184,6 @@ I mainly struggle with JavaScript and the select = input forms.
 ## Final review (week 5)
 
 <details>
-  <summary>uitwerken voor eindgesprek</summary>
 
   ### The outcome – characteristic screenshots:
   <img src="readme-images/eind1.jpg" alt="uitkomst opdracht">
@@ -212,7 +200,6 @@ I mainly struggle with JavaScript and the select = input forms.
   <img src="readme-images/eind8.jpg" alt="uitkomst opdracht">
   <img src="readme-images/eind9.jpg" alt="uitkomst opdracht">
 
-
   ### What went well / What I learned:
 I implemented the font-family using @font-face in CSS, even though it was not strictly required, and defined custom properties using :root. I also created small animations with JavaScript (such as hamburger menus) and revisited some useful JavaScript techniques.
 
@@ -220,7 +207,7 @@ I developed a solid understanding of CSS Grid, particularly how columns and rows
 
 For the first time, I implemented a dark mode and light mode, as well as :focus pseudo-classes to improve accessibility. I also worked extensively with parent-child relationships, since we were not allowed to use <div> elements or classes/IDs. This actually helped me better understand how to target elements in CSS and JavaScript.
 
-During the retake, I gained a better understanding of @media queries and became faster and more efficient in writing HTML and CSS.
+Over time, I gained a better understanding of @media queries and became faster and more efficient in writing HTML and CSS.
 
   ### What was challenging / What did not work:
 For the homepage, I had to create an animated scroll indicator, with the idea of using @keyframes to code it. In the end, I was not able to achieve this.
@@ -249,7 +236,6 @@ These are the improvements I made based on feedback from classmate Thomas Plas:
 - For different desktop screen sizes, I ensured that the footer remains positioned at the bottom of the page.
 - I attempted to make the select element interactive using :has, but this was not successful. My goal was to change the image (e.g., to itembrown.png) when a specific option value such as “brown” is selected. With more time, I would have been able to refine and complete this functionality.
 
-  
 </details>
 
 
@@ -259,7 +245,6 @@ These are the improvements I made based on feedback from classmate Thomas Plas:
 ## Sources
 
 <details open>
-  <summary>continu bijhouden terwijl je werkt</summary>
 
   1. MDN input + select
   2. SVGrepo (menu icon)
